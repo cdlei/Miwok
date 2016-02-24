@@ -59,4 +59,10 @@ public class Word {
         return mMiwokTranslation;
     }
 
+    /**
+     * Return the image resource ID of the word
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
 }
